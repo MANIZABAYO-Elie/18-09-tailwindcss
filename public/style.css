@@ -554,6 +554,14 @@ video {
   display: none;
 }
 
+.mt-9 {
+  margin-top: 2.25rem;
+}
+
+.ml-9 {
+  margin-left: 2.25rem;
+}
+
 .flex {
   display: flex;
 }
@@ -580,6 +588,27 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-r {
+  border-right-width: 1px;
+}
+
+.border-r-8 {
+  border-right-width: 8px;
+}
+
+.bg-\[hsl\(256\2c 67\%\2c 59\%\)\] {
+  --tw-bg-opacity: 1;
+  background-color: hsl(256 67% 59% / var(--tw-bg-opacity));
 }
 
 .pt-9 {
